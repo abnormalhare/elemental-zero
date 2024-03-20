@@ -1,9 +1,9 @@
 const { REST, Routes } = require("discord.js");
 const fs = require("node:fs");
 const process = { env: {
-    guildId: '1208226555608961116',
-    clientId: '1208229178286284850',
-    TOKEN: 'MTIwODIyOTE3ODI4NjI4NDg1MA.Gv4ahS.sQUe8UbDCeUCmOznHZ4kO2dk7Lj6H0p30JR-LA'
+    guildId: null,
+    clientId: null,
+    TOKEN: null
 } }
 
 const commands = [];
